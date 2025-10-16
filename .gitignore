@@ -24,6 +24,7 @@ Thumbs.db
 .quarto/
 _site/
 _book/
+docs/
 _publish/
 
 # Build artifacts (only inside output dirs, not globally!)
