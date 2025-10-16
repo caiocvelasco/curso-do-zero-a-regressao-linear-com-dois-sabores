@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>🧭 Do Zero à Regressão Linear — com Dois Sabores – Curso do Zero à Regressão Linear — com Dois Sabores</title>
+<title>🧭 Do Zero à Regressão Linear: com Dois Sabores – Curso do Zero à Regressão Linear — com Dois Sabores</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -69,6 +69,35 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -123,8 +152,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">🧭 Do Zero à Regressão Linear — com Dois Sabores</h1>
-<p class="subtitle lead">Inferência &amp; Predição em um só curso</p>
+<h1 class="title">🧭 Do Zero à Regressão Linear: com Dois Sabores</h1>
 </div>
 
 
@@ -143,15 +171,35 @@ ul.task-list li input[type="checkbox"] {
 
 <p><a name="topo"></a></p>
 <blockquote class="blockquote">
-<p>🎓 <strong>Um curso completo e didático que une Estatística e Machine Learning.</strong></p>
-<p>Da forma fechada ao gradient descent — tudo explicado com intuição geométrica, visualizações e exemplos práticos.</p>
+<p><strong>Um curso completo e didático que une Estatística e Machine Learning.</strong></p>
+<p>Tudo explicado com matemática de alto nível, intuição geométrica, visualizações e exemplos práticos.</p>
 </blockquote>
-<hr>
+<section id="pré-requisitos" class="level2">
+<h2 class="anchored" data-anchor-id="pré-requisitos">🧩 Pré-requisitos</h2>
+<p>O curso foi desenhado para ser acessível a quem <strong>quer aprender Regressão Linear de verdade - da base matemática à aplicação prática</strong>, mesmo sem formação formal em Estatística ou Engenharia.</p>
+<section id="conhecimentos-desejáveis-não-obrigatórios" class="level3">
+<h3 class="anchored" data-anchor-id="conhecimentos-desejáveis-não-obrigatórios">🎓 Conhecimentos desejáveis (não obrigatórios)</h3>
+<ul>
+<li><strong>Matemática básica do ensino médio</strong>: operações com frações, potências e equações lineares simples.<br>
+</li>
+<li><strong>Noções intuitivas de funções e gráficos</strong>: o que significa uma reta, inclinação, intercepto, plano x-y e espaço x-y-z.<br>
+</li>
+<li><strong>Leitura em inglês técnico</strong>: nomes de variáveis, termos como <em>dataset</em>, <em>model</em>, <em>gradient</em>, etc.<br>
+</li>
+<li><strong>Curiosidade com programação:</strong> Python para dados serve como ponto de partida, mas não é necessário.</li>
+</ul>
+</section>
+</section>
 <section id="objetivo-do-curso" class="level2">
 <h2 class="anchored" data-anchor-id="objetivo-do-curso">🎯 Objetivo do Curso</h2>
-<p>Dar uma formação sólida em <strong>modelagem estatística e predição</strong>, tendo a <strong>Regressão Linear</strong> como fio condutor.</p>
-<p>O aluno vai entender: - O <em>mundo da inferência</em> (estatística clássica, DGP, p-valor, hipótese); - O <em>mundo da predição</em> (ML supervisionado, erro empírico, bias-variance); - E que ambos partem da mesma base: <strong>álgebra linear + probabilidade + otimização</strong>.</p>
-<hr>
+<p>Dar uma formação sólida em <strong>Matemática, Modelagem Estatística (Probabilidade e Inferência) e Machine Learning (Predição)</strong>, tendo a <strong>Regressão Linear</strong> como fio condutor.</p>
+<p>O aluno vai aprender sobre:</p>
+<ul>
+<li>O <em>mundo da inferência</em> (probabilidade, estatística clássica, inferência e estimação, teorema do limite central, p-valor, teste de hipóteses, intervalos de confiança, etc.);</li>
+<li>O <em>mundo da predição</em> (contexto de ML supervisionado, gradiente descendente, erro empírico, bias-variance);</li>
+<li>E que ambos partem da mesma base: <strong>Algebra linear + Probabilidade + Otimização</strong>.</li>
+</ul>
+<p>Não é apenas um “Curso de Regressão Linear”, mas sim um curso completo da <strong>intuição</strong> dos fundamentos matemáticos por trás de cada passo.</p>
 </section>
 <section id="estrutura-didática" class="level2">
 <h2 class="anchored" data-anchor-id="estrutura-didática">🚀 Estrutura Didática <a name="modulos"></a></h2>
@@ -189,34 +237,107 @@ ul.task-list li input[type="checkbox"] {
 <td>Regressão Linear (ML)</td>
 <td>Gradient Descent e predição</td>
 </tr>
-<tr class="even">
-<td>5</td>
-<td>Síntese e próximos passos</td>
-<td>Unificação e extensões</td>
-</tr>
 </tbody>
 </table>
-<hr>
+</section>
+<section id="conteúdo-completo" class="level2">
+<h2 class="anchored" data-anchor-id="conteúdo-completo">📘 Conteúdo Completo</h2>
+<p>Cada pilar é construído com foco em <strong>intuição, formalização e prática</strong>.</p>
+<section id="álgebra-linear" class="level3">
+<h3 class="anchored" data-anchor-id="álgebra-linear">Álgebra Linear</h3>
+<blockquote class="blockquote">
+<p>Base geométrica da regressão.</p>
+</blockquote>
+<ul>
+<li>Vetores, matrizes e operações elementares<br>
+</li>
+<li>Produto interno e projeções ortogonais<br>
+</li>
+<li>Subespaço de colunas e interpretação geométrica de <span class="math inline">\(X\beta\)</span></li>
+<li>Solução matricial da regressão linear:<br>
+<span class="math inline">\(\hat{\beta} = (X'X)^{-1}X'Y\)</span><br>
+</li>
+<li>Interpretação de resíduos como vetores ortogonais<br>
+</li>
+<li>Representação gráfica em 2D e 3D</li>
+</ul>
+</section>
+<section id="probabilidade-clássica" class="level3">
+<h3 class="anchored" data-anchor-id="probabilidade-clássica">Probabilidade Clássica</h3>
+<blockquote class="blockquote">
+<p>A linguagem da incerteza.</p>
+</blockquote>
+<ul>
+<li>Variáveis aleatórias e distribuições<br>
+</li>
+<li>Esperança, variância e covariância<br>
+</li>
+<li>Lei dos Grandes Números e intuição da média amostral<br>
+</li>
+<li>Introdução ao conceito de ruído: <span class="math inline">\(\varepsilon_i \sim (0, \sigma^2)\)</span><br>
+</li>
+<li>Construção intuitiva do modelo probabilístico:<br>
+<span class="math inline">\(Y_i = \beta_0 + \beta_1 X_i + \varepsilon_i\)</span></li>
+</ul>
+</section>
+<section id="inferência-estatística" class="level3">
+<h3 class="anchored" data-anchor-id="inferência-estatística">Inferência Estatística</h3>
+<blockquote class="blockquote">
+<p>Como estimar, testar e interpretar.</p>
+</blockquote>
+<ul>
+<li>OLS como <strong>melhor estimador linear não viesado (Gauss–Markov)</strong><br>
+</li>
+<li>Erro padrão, intervalo de confiança e teste t<br>
+</li>
+<li>Teste F e interpretação global do modelo<br>
+</li>
+<li>Hipóteses e p-valores (sem decorar fórmulas)<br>
+</li>
+<li>Diagnóstico de resíduos e suposições do modelo<br>
+</li>
+<li>Ideia: Causalidade vs.&nbsp;Correlação — quando o <span class="math inline">\(\beta\)</span> é causal?</li>
+</ul>
+</section>
+<section id="otimização" class="level3">
+<h3 class="anchored" data-anchor-id="otimização">Otimização</h3>
+<blockquote class="blockquote">
+<p>O motor por trás da predição.</p>
+</blockquote>
+<ul>
+<li>Revisão de derivadas e gradiente vetorial<br>
+</li>
+<li>Funções convexas e mínimos locais<br>
+</li>
+<li>Derivada matricial da soma dos quadrados<br>
+</li>
+<li>Gradient Descent: passo de atualização e intuição geométrica<br>
+</li>
+<li>Função de perda (Loss Function) e erro empírico<br>
+</li>
+<li>Introdução à regularização: Ridge e LASSO<br>
+</li>
+<li>Convergência, taxa de aprendizado e visualização do gradiente</li>
+</ul>
+</section>
 </section>
 <section id="por-que-dois-sabores" class="level2">
 <h2 class="anchored" data-anchor-id="por-que-dois-sabores">💡 Por que “dois sabores”?</h2>
 <p>Porque você vai aprender <strong>a mesma regressão linear</strong> sob dois paradigmas:<br>
 🍦 <strong>Estatístico (inferência e causalidade)</strong> e<br>
 🍨 <strong>Computacional (predição e otimização)</strong>.</p>
-<hr>
 </section>
 <section id="formato" class="level2">
 <h2 class="anchored" data-anchor-id="formato">🧱 Formato</h2>
 <ul>
 <li><strong>Vídeos curtos e progressivos</strong>, lançados semanalmente<br>
 </li>
-<li><strong>Exercícios práticos em Python/Excel</strong><br>
+<li><strong>Exercícios práticos em Python</strong><br>
 </li>
 <li><strong>Visualizações geométricas e intuições claras</strong><br>
 </li>
 <li><strong>Comunidade e feedback</strong> (para turmas pagas)</li>
 </ul>
-<hr>
 </section>
 <section id="inscreva-se" class="level2">
 <h2 class="anchored" data-anchor-id="inscreva-se">📝 Inscreva-se <a name="formulario"></a></h2>
@@ -224,20 +345,19 @@ ul.task-list li input[type="checkbox"] {
 <iframe src="https://docs.google.com/forms/d/e/SEU_ID_DO_FORMULARIO/viewform?embedded=true" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">
 Carregando…
 </iframe>
-<hr>
-</section>
-<section id="sobre-o-autor" class="level2">
-<h2 class="anchored" data-anchor-id="sobre-o-autor">👨‍🏫 Sobre o Autor <a name="sobre"></a></h2>
-<p><strong>Caio Velasco</strong> é Engenheiro Mecânico <em>Cum Laude</em> pela <strong>UFRJ</strong> e Mestre em Economia e Políticas Públicas pela <strong>UCLA</strong>, com bolsa da Fundação Lemann.<br>
-Depois de pausar um doutorado em Economia na Holanda durante a pandemia, passou a atuar integralmente com <strong>dados e tecnologia</strong>, ajudando empresas dos EUA, Europa e Brasil a construírem <strong>plataformas de dados com Python, SQL, dbt, Snowflake e AWS</strong>. Porém, a paixão por ensinar é o que mais o motiva.</p>
-<p>Antes disso, foi <strong>primeiro funcionário da Stone Payments (NASDAQ: STNE)</strong> e fundador do <strong>MePrepara</strong>, plataforma online que ensinou matemática para GRE e GMAT.</p>
-<p>Reconhecido por instituições como <strong>UCLA, Yale, Lemann Foundation, General Electric Foundation e Club of Rome na Suiça</strong>, Caio combina <strong>engenharia, economia e educação</strong> - e acredita que <strong>entender a matemática por trás dos modelos sem perder a intuição e a aplicação prática</strong> é o que diferencia quem realmente pode dominar Ciência de Dados.</p>
-<blockquote class="blockquote">
-<p>💡 “Meu objetivo é ensinar com clareza e propósito — conectando teoria, intuição e aplicação prática.”</p>
-</blockquote>
-<hr>
 <blockquote class="blockquote">
 <p>🔔 <em>Deixe seu contato no formulário acima e receba o convite para a primeira turma com preço promocional de lançamento.</em></p>
+</blockquote>
+<hr>
+<p align="center">
+<img src="images/caio.jpg" alt="Caio Velasco" width="180" style="border-radius: 50%; margin-top: 10px; margin-bottom: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+</p>
+<p><strong>Caio Velasco</strong> é Engenheiro Mecânico <em>Cum Laude</em> pela <strong>UFRJ</strong> e Mestre em Economia e Políticas Públicas pela <strong>UCLA</strong>, com bolsa da Fundação Lemann. Atualmente mora em Barcelona, na Espanha.</p>
+<p>Depois de pausar um doutorado em Economia na Holanda durante a pandemia, passou a atuar remotamente em Projetos de Engenharia e Ciência de Dados, ajudando empresas dos EUA, Europa e Brasil a construírem <strong>plataformas modernas</strong> e <strong>preparar modelos</strong> para responder perguntas de negócio. Porém, a paixão por ensinar é o que mais o motiva.</p>
+<p>Antes disso, trabalhou com FinTech e EdTech e fundou o <strong>MePrepara</strong>, plataforma online que ensinou matemática para as provas GRE e GMAT.</p>
+<p>Reconhecido por instituições como <strong>UCLA, Yale, Fundação Lemann, General Electric Foundation e Club of Rome na Suiça</strong>, Caio combina <strong>engenharia, economia e educação</strong> - e acredita que <strong>entender a matemática por trás dos modelos sem perder a intuição e a aplicação prática</strong> é essencial.</p>
+<blockquote class="blockquote">
+<p>💡 “Meu objetivo é ensinar com clareza e propósito - conectando teoria, intuição e aplicação prática.”</p>
 </blockquote>
 
 
@@ -316,7 +436,7 @@ Depois de pausar um doutorado em Economia na Holanda durante a pandemia, passou 
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/caiocvelasco\.github\.io\/curso-do-zero-a-regressao-linear-com-dois-sabores\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
