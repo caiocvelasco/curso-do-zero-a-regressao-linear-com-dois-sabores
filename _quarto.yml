@@ -1,0 +1,26 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Curso do Zero à Regressão Linear — com Dois Sabores"
+  description: "Um mini-curso completo sobre modelagem estatística e machine learning"
+  navbar:
+    left:
+      - text: "Início"
+        href: "#topo"
+      - text: "Tópicos"
+        href: "#modulos"
+      - text: "Inscreva-se"
+        href: "#formulario"
+      - text: "Sobre"
+        href: "#sobre"
+  page-footer:
+    left: "© 2025 Caio Velasco"
+    right: "Construído com ❤️ e Quarto"
+
+format:
+  html:
+    theme: flatly    # cosmo or litera, simplex, flatly for readability
+    smooth-scroll: true
+    css: styles.css

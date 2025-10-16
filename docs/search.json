@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "index.html#objetivo-do-curso",
+    "href": "index.html#objetivo-do-curso",
+    "title": "🧭 Do Zero à Regressão Linear — com Dois Sabores",
+    "section": "🎯 Objetivo do Curso",
+    "text": "🎯 Objetivo do Curso\nDar uma formação sólida em modelagem estatística e predição, tendo a Regressão Linear como fio condutor.\nO aluno vai entender: - O mundo da inferência (estatística clássica, DGP, p-valor, hipótese); - O mundo da predição (ML supervisionado, erro empírico, bias-variance); - E que ambos partem da mesma base: álgebra linear + probabilidade + otimização."
+  },
+  {
+    "objectID": "index.html#estrutura-didática",
+    "href": "index.html#estrutura-didática",
+    "title": "🧭 Do Zero à Regressão Linear — com Dois Sabores",
+    "section": "🚀 Estrutura Didática ",
+    "text": "🚀 Estrutura Didática \n\n\n\nMódulo\nTema\nÊnfase\n\n\n\n\n0\nO que é modelar dados\nIntuição e motivação\n\n\n1\nFundamentos Matemáticos\nÁlgebra Linear + Otimização\n\n\n2\nFundamentos Estatísticos\nProbabilidade + Inferência\n\n\n3\nRegressão Linear (Estatística)\nOLS e interpretação\n\n\n4\nRegressão Linear (ML)\nGradient Descent e predição\n\n\n5\nSíntese e próximos passos\nUnificação e extensões"
+  },
+  {
+    "objectID": "index.html#por-que-dois-sabores",
+    "href": "index.html#por-que-dois-sabores",
+    "title": "🧭 Do Zero à Regressão Linear — com Dois Sabores",
+    "section": "💡 Por que “dois sabores”?",
+    "text": "💡 Por que “dois sabores”?\nPorque você vai aprender a mesma regressão linear sob dois paradigmas:\n🍦 Estatístico (inferência e causalidade) e\n🍨 Computacional (predição e otimização)."
+  },
+  {
+    "objectID": "index.html#formato",
+    "href": "index.html#formato",
+    "title": "🧭 Do Zero à Regressão Linear — com Dois Sabores",
+    "section": "🧱 Formato",
+    "text": "🧱 Formato\n\nVídeos curtos e progressivos, lançados semanalmente\n\nExercícios práticos em Python/Excel\n\nVisualizações geométricas e intuições claras\n\nComunidade e feedback (para turmas pagas)"
+  },
+  {
+    "objectID": "index.html#inscreva-se",
+    "href": "index.html#inscreva-se",
+    "title": "🧭 Do Zero à Regressão Linear — com Dois Sabores",
+    "section": "📝 Inscreva-se ",
+    "text": "📝 Inscreva-se \nQuer ser avisado quando abrirem as inscrições?\n\nCarregando…"
+  },
+  {
+    "objectID": "index.html#sobre-o-autor",
+    "href": "index.html#sobre-o-autor",
+    "title": "🧭 Do Zero à Regressão Linear — com Dois Sabores",
+    "section": "👨‍🏫 Sobre o Autor ",
+    "text": "👨‍🏫 Sobre o Autor \nCaio Velasco é Engenheiro Mecânico Cum Laude pela UFRJ e Mestre em Economia e Políticas Públicas pela UCLA, com bolsa da Fundação Lemann.\nDepois de pausar um doutorado em Economia na Holanda durante a pandemia, passou a atuar integralmente com dados e tecnologia, ajudando empresas dos EUA, Europa e Brasil a construírem plataformas de dados com Python, SQL, dbt, Snowflake e AWS. Porém, a paixão por ensinar é o que mais o motiva.\nAntes disso, foi primeiro funcionário da Stone Payments (NASDAQ: STNE) e fundador do MePrepara, plataforma online que ensinou matemática para GRE e GMAT.\nReconhecido por instituições como UCLA, Yale, Lemann Foundation, General Electric Foundation e Club of Rome na Suiça, Caio combina engenharia, economia e educação - e acredita que entender a matemática por trás dos modelos sem perder a intuição e a aplicação prática é o que diferencia quem realmente pode dominar Ciência de Dados.\n\n💡 “Meu objetivo é ensinar com clareza e propósito — conectando teoria, intuição e aplicação prática.”\n\n\n\n🔔 Deixe seu contato no formulário acima e receba o convite para a primeira turma com preço promocional de lançamento."
+  }
+]

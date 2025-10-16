@@ -1,0 +1,78 @@
+---
+title: "🧭 Do Zero à Regressão Linear — com Dois Sabores"
+subtitle: "Inferência & Predição em um só curso"
+format: html
+---
+
+<a name="topo"></a>
+
+> 🎓 **Um curso completo e didático que une Estatística e Machine Learning.**
+>
+> Da forma fechada ao gradient descent — tudo explicado com intuição geométrica, visualizações e exemplos práticos.
+
+---
+
+## 🎯 Objetivo do Curso
+
+Dar uma formação sólida em **modelagem estatística e predição**, tendo a **Regressão Linear** como fio condutor.
+
+O aluno vai entender:
+- O *mundo da inferência* (estatística clássica, DGP, p-valor, hipótese);
+- O *mundo da predição* (ML supervisionado, erro empírico, bias-variance);
+- E que ambos partem da mesma base: **álgebra linear + probabilidade + otimização**.
+
+---
+
+## 🚀 Estrutura Didática <a name="modulos"></a>
+
+| Módulo | Tema | Ênfase |
+|--------|------|--------|
+| 0 | O que é modelar dados | Intuição e motivação |
+| 1 | Fundamentos Matemáticos | Álgebra Linear + Otimização |
+| 2 | Fundamentos Estatísticos | Probabilidade + Inferência |
+| 3 | Regressão Linear (Estatística) | OLS e interpretação |
+| 4 | Regressão Linear (ML) | Gradient Descent e predição |
+| 5 | Síntese e próximos passos | Unificação e extensões |
+
+---
+
+## 💡 Por que “dois sabores”?
+
+Porque você vai aprender **a mesma regressão linear** sob dois paradigmas:  
+🍦 **Estatístico (inferência e causalidade)** e  
+🍨 **Computacional (predição e otimização)**.
+
+---
+
+## 🧱 Formato
+
+- **Vídeos curtos e progressivos**, lançados semanalmente  
+- **Exercícios práticos em Python/Excel**  
+- **Visualizações geométricas e intuições claras**  
+- **Comunidade e feedback** (para turmas pagas)
+
+---
+
+## 📝 Inscreva-se <a name="formulario"></a>
+
+Quer ser avisado quando abrirem as inscrições?
+
+<iframe src="https://docs.google.com/forms/d/e/SEU_ID_DO_FORMULARIO/viewform?embedded=true"
+width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+
+---
+
+## 👨‍🏫 Sobre o Autor <a name="sobre"></a>
+
+**Caio Velasco** é Engenheiro Mecânico _Cum Laude_ pela **UFRJ** e Mestre em Economia e Políticas Públicas pela **UCLA**, com bolsa da Fundação Lemann.  
+Depois de pausar um doutorado em Economia na Holanda durante a pandemia, passou a atuar integralmente com **dados e tecnologia**, ajudando empresas dos EUA, Europa e Brasil a construírem **plataformas de dados com Python, SQL, dbt, Snowflake e AWS**. Porém, a paixão por ensinar é o que mais o motiva.
+
+Antes disso, foi **primeiro funcionário da Stone Payments (NASDAQ: STNE)** e fundador do **MePrepara**, plataforma online que ensinou matemática para GRE e GMAT.
+
+Reconhecido por instituições como **UCLA, Yale, Lemann Foundation, General Electric Foundation e Club of Rome na Suiça**, Caio combina **engenharia, economia e educação** - e acredita que **entender a matemática por trás dos modelos sem perder a intuição e a aplicação prática** é o que diferencia quem realmente pode dominar Ciência de Dados.
+
+> 💡 “Meu objetivo é ensinar com clareza e propósito — conectando teoria, intuição e aplicação prática.”
+
+---
+
+> 🔔 *Deixe seu contato no formulário acima e receba o convite para a primeira turma com preço promocional de lançamento.*
