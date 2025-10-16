@@ -1,27 +1,48 @@
 ---
-title: "🧭 Do Zero à Regressão Linear — com Dois Sabores"
-subtitle: "Inferência & Predição em um só curso"
+title: "Do Zero à Regressão Linear - com Dois Sabores"
 format: html
 ---
 
 <a name="topo"></a>
 
-> 🎓 **Um curso completo e didático que une Estatística e Machine Learning.**
->
-> Da forma fechada ao gradient descent — tudo explicado com intuição geométrica, visualizações e exemplos práticos.
+> **Aprenda Regressão Linear de um jeito que finalmente faz sentido.**  
 
----
+## 🧠 Por que este curso é diferente
+
+A maioria dos cursos ensina regressão como uma receita.  
+Aqui, você vai **entender o porquê** de cada passo - e ver como a matemática, quando bem explicada, se torna **clara, visual e até bonita**.
+
+- 👁️ **Visual:** você vai enxergar o que as equações representam no espaço.  
+- 🔢 **Matemático:** aprender o essencial de álgebra, probabilidade e otimização no contexto certo.  
+- 💡 **Aplicado:** ver a teoria funcionando em Python e em dados reais.  
+- 🎯 **Conectado:** entender como Estatística e Machine Learning são duas formas de olhar o mesmo problema.
+
+> Aqui você vai aprender o que nenhum curso te ensina. 
+> A mesma regressão linear, vista **por dois mundos**:  
+> - o da **Estatística** (inferência e causalidade) e  
+> - o do **Machine Learning** (predição e otimização).
+
+## 🧩 Pré-requisitos <a name="requisitos"></a>
+
+Este curso foi feito para quem **quer aprender Regressão Linear de verdade - da base à aplicação prática**,
+mesmo sem formação formal em Estatística ou Engenharia.
+
+### 🎓 Conhecimentos desejáveis (não obrigatórios)
+- **Matemática básica do ensino médio:** frações, potências e equações lineares simples.  
+- **Funções e gráficos:** o que significa uma reta, inclinação, intercepto e plano $x$-$y$.  
+- **Leitura em inglês técnico:** termos como *dataset*, *model*, *gradient*.  
+- **Curiosidade com programação:** Python é bem-vindo, mas não obrigatório.
 
 ## 🎯 Objetivo do Curso
 
-Dar uma formação sólida em **modelagem estatística e predição**, tendo a **Regressão Linear** como fio condutor.
+Dar uma formação sólida em **Matemática, Estatística e Machine Learning**,  
+tendo a **Regressão Linear** como fio condutor para unir teoria, geometria e prática.
 
-O aluno vai entender:
-- O *mundo da inferência* (estatística clássica, DGP, p-valor, hipótese);
-- O *mundo da predição* (ML supervisionado, erro empírico, bias-variance);
+Você vai compreender:
+
+- O *mundo da inferência* - como estimamos, testamos e interpretamos relações entre variáveis.  
+- O *mundo da predição* - como treinamos modelos para prever e generalizar.  
 - E que ambos partem da mesma base: **álgebra linear + probabilidade + otimização**.
-
----
 
 ## 🚀 Estrutura Didática <a name="modulos"></a>
 
@@ -32,47 +53,82 @@ O aluno vai entender:
 | 2 | Fundamentos Estatísticos | Probabilidade + Inferência |
 | 3 | Regressão Linear (Estatística) | OLS e interpretação |
 | 4 | Regressão Linear (ML) | Gradient Descent e predição |
-| 5 | Síntese e próximos passos | Unificação e extensões |
 
----
+## 📘 Conteúdo Completo
+
+Cada pilar é construído com foco em **intuição, formalização e prática**.
+
+### Álgebra Linear
+
+- Vetores, matrizes e operações elementares  
+- Produto interno e projeções ortogonais  
+- Subespaço de colunas e interpretação geométrica de $X\beta$ 
+- Solução matricial da regressão linear:  
+  $\hat{\beta} = (X'X)^{-1}X'Y$  
+- Interpretação de resíduos como vetores ortogonais  
+- Representação gráfica em 2D e 3D
+
+### Probabilidade Clássica
+
+- Variáveis aleatórias e distribuições  
+- Esperança, variância e covariância  
+- Lei dos Grandes Números e intuição da média amostral  
+- Introdução ao conceito de ruído: $\varepsilon_i \sim (0, \sigma^2)$  
+- Construção intuitiva do modelo probabilístico:  
+  $Y_i = \beta_0 + \beta_1 X_i + \varepsilon_i$
+
+### Inferência Estatística
+
+- OLS como **melhor estimador linear não viesado (Gauss–Markov)**  
+- Erro padrão, intervalo de confiança e teste t  
+- Teste F e interpretação global do modelo  
+- Hipóteses e p-valores  
+- Diagnóstico de resíduos e suposições do modelo  
+- Ideia: Causalidade vs. Correlação - quando o $\beta$ é causal?
+
+### Otimização
+
+- Revisão de derivadas e gradiente vetorial  
+- Funções convexas e mínimos locais  
+- Derivada matricial da soma dos quadrados  
+- Gradient Descent: passo de atualização e intuição geométrica  
+- Função de perda (Loss Function) e erro empírico  
+- Introdução à regularização: Ridge e LASSO  
+- Convergência, taxa de aprendizado e visualização do gradiente
 
 ## 💡 Por que “dois sabores”?
 
 Porque você vai aprender **a mesma regressão linear** sob dois paradigmas:  
-🍦 **Estatístico (inferência e causalidade)** e  
-🍨 **Computacional (predição e otimização)**.
-
----
+- **Estatístico (inferência e causalidade)** e  
+-  **Computacional (predição e otimização)**.
 
 ## 🧱 Formato
 
 - **Vídeos curtos e progressivos**, lançados semanalmente  
-- **Exercícios práticos em Python/Excel**  
+- **Exercícios práticos em Python**  
 - **Visualizações geométricas e intuições claras**  
-- **Comunidade e feedback** (para turmas pagas)
-
----
+- **Comunidade e feedback**
 
 ## 📝 Inscreva-se <a name="formulario"></a>
 
 Quer ser avisado quando abrirem as inscrições?
 
-<iframe src="https://docs.google.com/forms/d/e/SEU_ID_DO_FORMULARIO/viewform?embedded=true"
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScGXyserKH8vEb4IhT7G2YLYf6_htcMTWx6YGRoOZH9XDKjnQ/viewform?embedded=true"
 width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
 
 ---
 
-## 👨‍🏫 Sobre o Autor <a name="sobre"></a>
+<a name="sobre"></a>
+<p align="center">
+  <img src="images/caio.jpg" alt="Caio Velasco" width="180" style="border-radius: 50%; margin-top: 10px; margin-bottom: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" />
+</p>
 
-**Caio Velasco** é Engenheiro Mecânico _Cum Laude_ pela **UFRJ** e Mestre em Economia e Políticas Públicas pela **UCLA**, com bolsa da Fundação Lemann.  
-Depois de pausar um doutorado em Economia na Holanda durante a pandemia, passou a atuar integralmente com **dados e tecnologia**, ajudando empresas dos EUA, Europa e Brasil a construírem **plataformas de dados com Python, SQL, dbt, Snowflake e AWS**. Porém, a paixão por ensinar é o que mais o motiva.
+**Caio Velasco** é Engenheiro Mecânico _Cum Laude_ pela **UFRJ** e Mestre em Economia e Políticas Públicas pela **UCLA**, com bolsa da Fundação Lemann. Atualmente mora em Barcelona, na Espanha.
 
-Antes disso, foi **primeiro funcionário da Stone Payments (NASDAQ: STNE)** e fundador do **MePrepara**, plataforma online que ensinou matemática para GRE e GMAT.
+Depois de pausar um doutorado em Economia na Holanda durante a pandemia, passou a atuar remotamente em Projetos de Engenharia e Ciência de Dados, ajudando empresas dos EUA, Europa e Brasil a construírem **plataformas modernas** e **preparar modelos** para responder perguntas de negócio. Porém, a paixão por ensinar é o que mais o motiva.
 
-Reconhecido por instituições como **UCLA, Yale, Lemann Foundation, General Electric Foundation e Club of Rome na Suiça**, Caio combina **engenharia, economia e educação** - e acredita que **entender a matemática por trás dos modelos sem perder a intuição e a aplicação prática** é o que diferencia quem realmente pode dominar Ciência de Dados.
+Antes disso, trabalhou com FinTech e EdTech e fundou o **MePrepara**, plataforma online que ensinou matemática para as provas GRE e GMAT.
 
-> 💡 “Meu objetivo é ensinar com clareza e propósito — conectando teoria, intuição e aplicação prática.”
+Reconhecido por instituições como **UCLA, Yale, Fundação Lemann, General Electric Foundation e Club of Rome na Suiça**, Caio combina **engenharia, economia e educação** - e acredita que **entender a matemática por trás dos modelos sem perder a intuição e a aplicação prática** é essencial.
 
----
-
-> 🔔 *Deixe seu contato no formulário acima e receba o convite para a primeira turma com preço promocional de lançamento.*
+> 💡 “Meu objetivo é ensinar com clareza e propósito - conectando teoria, intuição e aplicação prática.”

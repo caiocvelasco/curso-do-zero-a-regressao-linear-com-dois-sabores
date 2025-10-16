@@ -3,14 +3,16 @@ project:
   output-dir: docs
 
 website:
-  title: "Curso do Zero à Regressão Linear — com Dois Sabores"
+  title: ""
   description: "Um mini-curso completo sobre modelagem estatística e machine learning"
   navbar:
     left:
       - text: "Início"
         href: "#topo"
-      - text: "Tópicos"
+      - text: "Conteúdo"
         href: "#modulos"
+      - text: "Pré-requisitos"
+        href: "#requisitos"
       - text: "Inscreva-se"
         href: "#formulario"
       - text: "Sobre"
@@ -22,5 +24,5 @@ website:
 format:
   html:
     theme: flatly    # cosmo or litera, simplex, flatly for readability
-    smooth-scroll: true
+    smooth-scroll: false
     css: styles.css
