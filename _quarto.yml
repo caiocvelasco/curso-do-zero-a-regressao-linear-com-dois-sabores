@@ -9,6 +9,10 @@ website:
     left:
       - text: "Início"
         href: "#topo"
+      - text: "Motivação"
+        href: "#motivacao"
+      - text: "Objetivo"
+        href: "#objetivo"
       - text: "Conteúdo"
         href: "#modulos"
       - text: "Pré-requisitos"
